@@ -1,8 +1,8 @@
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
-path: ../datasets/coco128  # dataset root dir
-train: Dataset/Train_Data/images  # adress train images (relative to 'path') 
-val: Dataset/Train_Data/images  # address val images (relative to 'path') 
-test:  Dataset/Tesr_Data/images # address test images (optional)
+path: Dataset  # address of dataset root dir
+train: Train_Data/images  # adress of train images (relative to 'path') 
+val: Train_Data/images  # address of val images (relative to 'path') 
+test:  Test_Data/images # address of test images (optional)
 
 # Classes (1 Yolo classes)
 names:
